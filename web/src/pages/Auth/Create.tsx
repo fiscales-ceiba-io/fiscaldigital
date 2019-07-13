@@ -34,6 +34,33 @@ export const Create = ({ history }: { history: History }) => {
     }
   }, [history]);
 
+  return (
+    <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
+      <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
+      <Container maxWidth="xs">
+        <AuthLogo />
+        <SignUpForm
+          onSuccess={() => {
+            setSnackbar(closeSnackbar());
+            history.push(routes.auth.validate, {
+              telefono: `${countryCode}${telefono.trim()}`,
+            });
+          }}
+          onError={(error: any) => {
+            setSnackbar(displaySnackbarError(error));
+          }}
+        />
+      </Container>
+    </View>
+  );
+};
+
+export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: any }) => {
+  const [nombre, setFName] = useState("");
+  const [apellido, setLName] = useState("");
+  const [telefono, setPhoneNumber] = useState("");
+  const [countryCode, setCountryCode] = useState("+502");
+
   const onSubmit = async () => {
     try {
       await axios({
@@ -49,86 +76,78 @@ export const Create = ({ history }: { history: History }) => {
         },
       });
 
-      setSnackbar(closeSnackbar());
-
-      history.push(routes.auth.validate, {
-        telefono: `${countryCode}${telefono.trim()}`,
-      });
+      onSuccess();
     } catch (error) {
       console.log(error);
-      setSnackbar(displaySnackbarError(error));
+      onError(error);
     }
   };
 
   const marginBottom = theme.spacing(1);
 
   return (
-    <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
-      <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
-      <Container maxWidth="xs">
-        <AuthLogo />
-        <Grid container spacing={2} style={{ marginBottom }}>
-          <Grid item xs={12} sm={6} lg={6}>
-            <TextField
-              autoComplete="fname"
-              name="nombre"
-              variant="outlined"
-              required
-              fullWidth
-              id="nombre"
-              label="Nombre"
-              value={nombre}
-              onChange={e => setFName(e.target.value)}
-              autoFocus
-            />
-          </Grid>
-          <Grid item xs={12} sm={6} lg={6}>
-            <TextField
-              variant="outlined"
-              required
-              fullWidth
-              id="apellido"
-              label="Apellido"
-              name="apellido"
-              value={apellido}
-              onChange={e => setLName(e.target.value)}
-              autoComplete="lname"
-            />
-          </Grid>
+    <>
+      <Grid container spacing={2} style={{ marginBottom }}>
+        <Grid item xs={12} sm={6} lg={6}>
+          <TextField
+            autoComplete="fname"
+            name="nombre"
+            variant="outlined"
+            required
+            fullWidth
+            id="nombre"
+            label="Nombre"
+            value={nombre}
+            onChange={e => setFName(e.target.value)}
+            autoFocus
+          />
         </Grid>
-        <Grid container spacing={2} style={{ marginBottom }}>
-          <Grid item xs={4} lg={4}>
-            <CountryCodeSelect onChange={(e: any) => setCountryCode(e.target.value)} />
-          </Grid>
-          <Grid item xs={8} lg={8}>
-            <PhoneNumberInput
-              autoFocus={false}
-              onChange={(e: any) => setPhoneNumber(e.target.value)}
-            />
-          </Grid>
+        <Grid item xs={12} sm={6} lg={6}>
+          <TextField
+            variant="outlined"
+            required
+            fullWidth
+            id="apellido"
+            label="Apellido"
+            name="apellido"
+            value={apellido}
+            onChange={e => setLName(e.target.value)}
+            autoComplete="lname"
+          />
         </Grid>
-        <Grid container spacing={2} style={{ marginBottom }}>
-          <Grid item xs={12}>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              size="large"
-              onClick={onSubmit}
-            >
-              Enviar
-            </Button>
-          </Grid>
-          <Grid item xs={12}>
-            <Link to={routes.auth.signIn}>
-              <Typography variant="body2" align="center">
-                Ya tengo una cuenta
-              </Typography>
-            </Link>
-          </Grid>
+      </Grid>
+      <Grid container spacing={2} style={{ marginBottom }}>
+        <Grid item xs={4} lg={4}>
+          <CountryCodeSelect onChange={(e: any) => setCountryCode(e.target.value)} />
         </Grid>
-      </Container>
-    </View>
+        <Grid item xs={8} lg={8}>
+          <PhoneNumberInput
+            autoFocus={false}
+            onChange={(e: any) => setPhoneNumber(e.target.value)}
+          />
+        </Grid>
+      </Grid>
+      <Grid container spacing={2} style={{ marginBottom }}>
+        <Grid item xs={12}>
+          <Button
+            type="submit"
+            fullWidth
+            variant="contained"
+            color="primary"
+            size="large"
+            onClick={onSubmit}
+          >
+            Enviar
+          </Button>
+        </Grid>
+        <Grid item xs={12}>
+          <Link to={routes.auth.signIn}>
+            <Typography variant="body2" align="center">
+              Ya tengo una cuenta
+            </Typography>
+          </Link>
+        </Grid>
+      </Grid>
+    </>
   );
 };
