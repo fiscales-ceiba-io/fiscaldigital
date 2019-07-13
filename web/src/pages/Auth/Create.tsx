@@ -22,11 +22,7 @@ import { routes } from "../routes";
 import { AuthLogo } from "./components";
 
 export const Create = ({ history }: { history: History }) => {
-  const [nombre, setFName] = useState("");
-  const [apellido, setLName] = useState("");
-  const [telefono, setPhoneNumber] = useState("");
   const [snackbar, setSnackbar] = useState<SnackbarProps>(closeSnackbar());
-  const [countryCode, setCountryCode] = useState("+502");
 
   useEffect(() => {
     if (Cookies.get("token") && Cookies.get("userID")) {
@@ -40,10 +36,10 @@ export const Create = ({ history }: { history: History }) => {
       <Container maxWidth="xs">
         <AuthLogo />
         <SignUpForm
-          onSuccess={() => {
+          onSuccess={({ telefono }: { telefono: string }) => {
             setSnackbar(closeSnackbar());
             history.push(routes.auth.validate, {
-              telefono: `${countryCode}${telefono.trim()}`,
+              telefono,
             });
           }}
           onError={(error: any) => {
@@ -76,7 +72,7 @@ export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: an
         },
       });
 
-      onSuccess();
+      onSuccess({ telefono: `${countryCode}${telefono.trim()}` });
     } catch (error) {
       console.log(error);
       onError(error);
@@ -137,7 +133,7 @@ export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: an
             size="large"
             onClick={onSubmit}
           >
-            Enviar
+            Crear Cuenta
           </Button>
         </Grid>
         <Grid item xs={12}>

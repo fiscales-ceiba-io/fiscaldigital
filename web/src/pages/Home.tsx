@@ -1,13 +1,25 @@
 import { Grid } from "@material-ui/core";
 import { History } from "history";
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 import { Link } from "react-router-dom";
-import { Button, Container, Typography, View } from "../components";
+import {
+  Button,
+  closeSnackbar,
+  Container,
+  displaySnackbarError,
+  Snackbar,
+  SnackbarProps,
+  Typography,
+  View,
+} from "../components";
 import { AppBar, Toolbar } from "../components/AppBar";
 import { theme } from "../theme";
+import { SignUpForm } from "./Auth/Create";
 import { routes } from "./routes";
 
 export const Home = ({ history }: { history: History }) => {
+  const [snackbar, setSnackbar] = useState<SnackbarProps>(closeSnackbar());
+
   return (
     <>
       <View width="100%" position="absolute">
@@ -52,20 +64,36 @@ export const Home = ({ history }: { history: History }) => {
         display="flex"
         bgcolor="secondary.main"
       >
+        <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
         <Container maxWidth="xl" style={{ marginTop: "auto" }}>
           <Grid container>
-            <Grid item lg={6}>
+            <Grid item lg={7}>
+              <Typography variant="h2" color="primary">
+                Juntos contamos
+              </Typography>
               <Typography variant="h2" color="primary" style={{ marginBottom: theme.spacing(2) }}>
-                Juntos contamos todos los votos
+                todos los votos
               </Typography>
               <Typography variant="h4" color="primary">
                 Sé un #FiscalDigital.
               </Typography>
-              <Typography variant="h4" color="primary">
+              <Typography variant="h5" color="primary">
                 Participa hoy mismo a favor de la democracia.
               </Typography>
             </Grid>
-            <Grid item lg={6} />
+            <Grid item lg={4}>
+              <SignUpForm
+                onSuccess={({ telefono }: { telefono: string }) => {
+                  setSnackbar(closeSnackbar());
+                  history.push(routes.auth.validate, {
+                    telefono,
+                  });
+                }}
+                onError={(error: any) => {
+                  setSnackbar(displaySnackbarError(error));
+                }}
+              />
+            </Grid>
           </Grid>
         </Container>
         <View mt="auto" bgcolor="primary.main" color="background.default" id="stats">
