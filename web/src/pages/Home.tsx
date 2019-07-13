@@ -121,15 +121,10 @@ export const Home = ({ history }: { history: History }) => {
         <View mt="auto" bgcolor="primary.main" color="background.default" id="stats">
           <Container style={{ padding: 0 }} maxWidth="xl">
             <Grid container>
-              <Stat size="lg" amount={get(stats, ["usuarios"], 0)} description="Usuarios Activos" />
+              <Stat size="lg" amount={get(stats, ["usuarios"], 0)} description="Usuarios" />
               <Stat
                 size="lg"
                 amount={get(stats, ["digitaciones", "validas"], 0)}
-                description="Actas Validadas"
-              />
-              <Stat
-                size="lg"
-                amount={get(stats, ["digitaciones", "totales"], 0)}
                 description="Actas Digitadas"
               />
             </Grid>
