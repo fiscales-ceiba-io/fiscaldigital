@@ -1,6 +1,8 @@
 import { Grid } from "@material-ui/core";
+import axios from "axios";
 import { History } from "history";
-import React, { useRef, useState } from "react";
+import { get } from "lodash";
+import React, { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import {
   Button,
@@ -19,6 +21,26 @@ import { routes } from "./routes";
 
 export const Home = ({ history }: { history: History }) => {
   const [snackbar, setSnackbar] = useState<SnackbarProps>(closeSnackbar());
+  const [stats, setStats] = useState({});
+
+  useEffect(() => {
+    fetchStats();
+  }, []);
+
+  const fetchStats = async () => {
+    try {
+      const res = await axios({
+        method: "get",
+        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/resultados/avances/?format=json`,
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+      setStats(res.data);
+    } catch (error) {
+      console.log(error);
+    }
+  };
 
   return (
     <>
@@ -47,7 +69,7 @@ export const Home = ({ history }: { history: History }) => {
                 </Grid>
                 <Grid item>
                   <Link to={routes.auth.create}>
-                    <Button variant="contained" color="primary" size="large">
+                    <Button variant="outlined" color="primary" size="large">
                       Participa
                     </Button>
                   </Link>
@@ -65,7 +87,7 @@ export const Home = ({ history }: { history: History }) => {
         bgcolor="secondary.main"
       >
         <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
-        <Container maxWidth="xl" style={{ marginTop: "auto" }}>
+        <Container maxWidth="xl" style={{ marginTop: 180, marginBottom: 98 }}>
           <Grid container>
             <Grid item lg={7}>
               <Typography variant="h2" color="primary">
@@ -99,18 +121,38 @@ export const Home = ({ history }: { history: History }) => {
         <View mt="auto" bgcolor="primary.main" color="background.default" id="stats">
           <Container style={{ padding: 0 }} maxWidth="xl">
             <Grid container>
-              <Stat size="lg" amount={79} description="Usuarios Activos" />
-              <Stat size="lg" amount={341} description="Digitaciones Válidas" />
-              <Stat size="lg" amount={420} description="Digitaciones Totales" />
+              <Stat size="lg" amount={get(stats, ["usuarios"], 0)} description="Usuarios Activos" />
+              <Stat
+                size="lg"
+                amount={get(stats, ["digitaciones", "validas"], 0)}
+                description="Actas Validadas"
+              />
+              <Stat
+                size="lg"
+                amount={get(stats, ["digitaciones", "totales"], 0)}
+                description="Actas Digitadas"
+              />
             </Grid>
           </Container>
           <Container maxWidth="xl" style={{ padding: 0 }}>
             <Grid container>
-              <Stat size="sm" amount={123} description="Actas Presidenciales" />
-              <Stat size="sm" amount={123} description="Listado Nacional" />
-              <Stat size="sm" amount={123} description="Diputados Distritales" />
-              <Stat size="sm" amount={123} description="Corporaciones Municipales" />
-              <Stat size="sm" amount={123} description="Parlacen" />
+              <Stat size="sm" amount={get(stats, ["avances", "p"], 0)} description="Presidente" />
+              <Stat
+                size="sm"
+                amount={get(stats, ["avances", "l_n"], 0)}
+                description="Listado Nacional"
+              />
+              <Stat
+                size="sm"
+                amount={get(stats, ["avances", "l_d"], 0)}
+                description="Diputados Distritales"
+              />
+              <Stat
+                size="sm"
+                amount={get(stats, ["avances", "l_m"], 0)}
+                description="Corporaciones Municipales"
+              />
+              <Stat size="sm" amount={get(stats, ["avances", "p_c"], 0)} description="PARLACEN" />
             </Grid>
           </Container>
         </View>
