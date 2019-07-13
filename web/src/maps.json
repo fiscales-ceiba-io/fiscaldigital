@@ -1,0 +1,58 @@
+[
+  {
+    "acta": 123,
+    "tipo": 2,
+    "usuario": 124,
+    "data": [
+      {
+        "campo": 123,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "papeletas_recibidas",
+        "grupo": 1,
+        "valor": ""
+      },
+      {
+        "campo": 1,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "cod_siglas",
+        "grupo": 2,
+        "valor": ""
+      },
+      {
+        "campo": 2,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "cod_siglas",
+        "grupo": 2,
+        "valor": ""
+      },
+      {
+        "campo": 3,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "cod_siglas",
+        "grupo": 2,
+        "valor": ""
+      },
+      {
+        "campo": 4,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "totales",
+        "grupo": 3,
+        "valor": ""
+      },
+      {
+        "campo": 5,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "totales",
+        "grupo": 3,
+        "valor": ""
+      },
+      {
+        "campo": 6,
+        "descripcion": "siglas_ppt",
+        "etiqueta": "totales",
+        "grupo": 3,
+        "valor": ""
+      }
+    ]
+  }
+]

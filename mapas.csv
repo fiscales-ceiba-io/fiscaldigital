@@ -1,0 +1,4637 @@
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de papeletas recibidas por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PPT."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PHG."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 168,
+  ""descripcion"": ""Total de votos para el partido PAN-PODEMOS."",
+  ""etiqueta"": ""PAN-PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos validos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos validamente emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos invalidos."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de votos impugnados."",
+  ""etiqueta"": ""VOTOS IMPUGNADOS"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de papeletas recibidas por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PHG."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido EG."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PPT."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PC."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos validos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos validamente emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos invalidos."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de votos impugnados."",
+  ""etiqueta"": ""VOTOS IMPUGNADOS"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PPT."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PPT."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADAN."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG-MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG-MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""Campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 19,
+  ""descripcion"": ""Total de votos para el partido PARTIDO PRODUCTIVIDAD Y TRABAJO."",
+  ""etiqueta"": ""PPT"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de PAPELETAS RECIBIDAS por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PROSPERIDAD CIUDADANA."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 23,
+  ""descripcion"": ""Total de votos para el partido PARTIDO HUMANISTA DE GUATEMALA."",
+  ""etiqueta"": ""PHG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 24,
+  ""descripcion"": ""Total de votos para el partido MLP."",
+  ""etiqueta"": ""MLP"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos VALIDOS."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos VALIDAMENTE emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos INVALIDOS."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de OBSERVACIONES IMPUGNACIONES."",
+  ""etiqueta"": ""OBSERVACIONES IMPUGNACIONES"",
+  ""grupo"": 3
+}
+]"
+NULL
+"[
+{
+  ""campo"": 0,
+  ""descripcion"": ""Total de papeletas recibidas por la mesa de votacion."",
+  ""etiqueta"": ""PAPELETAS RECIBIDAS"",
+  ""grupo"": 1
+},
+{
+  ""campo"": 27,
+  ""descripcion"": ""Total de votos para el partido LIBRE."",
+  ""etiqueta"": ""LIBRE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 7,
+  ""descripcion"": ""Total de votos para el partido UNIONISTA."",
+  ""etiqueta"": ""UNIONISTA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 21,
+  ""descripcion"": ""Total de votos para el partido VAMOS."",
+  ""etiqueta"": ""VAMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 17,
+  ""descripcion"": ""Total de votos para el partido FUERZA."",
+  ""etiqueta"": ""FUERZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 3,
+  ""descripcion"": ""Total de votos para el partido TODOS."",
+  ""etiqueta"": ""TODOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 2,
+  ""descripcion"": ""Total de votos para el partido VALOR."",
+  ""etiqueta"": ""VALOR"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 12,
+  ""descripcion"": ""Total de votos para el partido FCN-NACION."",
+  ""etiqueta"": ""FCN-NACION"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 9,
+  ""descripcion"": ""Total de votos para el partido UCN."",
+  ""etiqueta"": ""UCN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 10,
+  ""descripcion"": ""Total de votos para el partido ENCUENTRO POR GUATEMALA."",
+  ""etiqueta"": ""EG"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 16,
+  ""descripcion"": ""Total de votos para el partido WINAQ."",
+  ""etiqueta"": ""WINAQ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 26,
+  ""descripcion"": ""Total de votos para el partido SEMILLA."",
+  ""etiqueta"": ""SEMILLA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 14,
+  ""descripcion"": ""Total de votos para el partido CREO."",
+  ""etiqueta"": ""CREO"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 6,
+  ""descripcion"": ""Total de votos para el partido UNE."",
+  ""etiqueta"": ""UNE"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 1,
+  ""descripcion"": ""Total de votos para el partido PAN."",
+  ""etiqueta"": ""PAN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 18,
+  ""descripcion"": ""Total de votos para el partido UNIDOS."",
+  ""etiqueta"": ""UNIDOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 5,
+  ""descripcion"": ""Total de votos para el partido URNG MAIZ."",
+  ""etiqueta"": ""URNG MAIZ"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 15,
+  ""descripcion"": ""Total de votos para el partido VICTORIA."",
+  ""etiqueta"": ""VICTORIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 11,
+  ""descripcion"": ""Total de votos para el partido VIVA."",
+  ""etiqueta"": ""VIVA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 4,
+  ""descripcion"": ""Total de votos para el partido PODEMOS."",
+  ""etiqueta"": ""PODEMOS"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 8,
+  ""descripcion"": ""Total de votos para el partido BIEN."",
+  ""etiqueta"": ""BIEN"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 13,
+  ""descripcion"": ""Total de votos para el partido CONVERGENCIA."",
+  ""etiqueta"": ""CONVERGENCIA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 25,
+  ""descripcion"": ""Total de votos para el partido PC."",
+  ""etiqueta"": ""PC"",
+  ""grupo"": 2
+},
+{
+  ""campo"": 22,
+  ""descripcion"": ""Total de votos para el partido AVANZA."",
+  ""etiqueta"": ""AVANZA"",
+  ""grupo"": 2
+},
+{
+  ""campo"": -1,
+  ""descripcion"": ""Total de votos validos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -2,
+  ""descripcion"": ""Total de votos nulos."",
+  ""etiqueta"": ""VOTOS NULOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -3,
+  ""descripcion"": ""Total de votos en blanco."",
+  ""etiqueta"": ""VOTOS EN BLANCO"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -4,
+  ""descripcion"": ""Total de votos validamente emitidos."",
+  ""etiqueta"": ""TOTAL VOTOS VALIDAMENTE EMITIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -5,
+  ""descripcion"": ""Total de votos invalidos."",
+  ""etiqueta"": ""VOTOS INVALIDOS"",
+  ""grupo"": 3
+},
+{
+  ""campo"": -6,
+  ""descripcion"": ""Total de votos impugnados."",
+  ""etiqueta"": ""VOTOS IMPUGNADOS"",
+  ""grupo"": 3
+}
+]"

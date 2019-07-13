@@ -1,0 +1,63 @@
+import React from "react";
+import { Button, Grid } from "../../../components";
+import {
+  ActionContainer,
+  Container,
+  Instructions,
+  InstructionsContainer,
+  InstructionsTemplate,
+  LoadMoreButtonView,
+} from "../components";
+
+export const Step2 = ({
+  actionBlock,
+  onContinue,
+  onBack,
+  loadMoreButton,
+}: {
+  actionBlock: any;
+  onContinue: any;
+  onBack: any;
+  loadMoreButton: any;
+}) => {
+  return (
+    <Container>
+      <InstructionsContainer>
+        <Instructions />
+        <InstructionsTemplate backgroundImage={`url(/audit/compare/acta-2-grupo-2.png)`} />
+      </InstructionsContainer>
+      <ActionContainer>
+        <Grid item container direction="row" wrap="nowrap" justify="space-between">
+          <Button
+            variant="outlined"
+            size="small"
+            color="secondary"
+            onClick={onBack}
+            style={{ marginRight: "14px" }}
+          >
+            Atrás
+          </Button>
+          <Button variant="contained" size="large" color="secondary" fullWidth onClick={onContinue}>
+            Continuar
+          </Button>
+        </Grid>
+        {actionBlock}
+        <Grid item container direction="row" wrap="nowrap" justify="space-between">
+          <Button
+            variant="outlined"
+            size="small"
+            color="secondary"
+            onClick={onBack}
+            style={{ marginRight: "14px" }}
+          >
+            Atrás
+          </Button>
+          <Button variant="contained" size="large" color="secondary" fullWidth onClick={onContinue}>
+            Continuar
+          </Button>
+        </Grid>
+        <LoadMoreButtonView>{loadMoreButton}</LoadMoreButtonView>
+      </ActionContainer>
+    </Container>
+  );
+};
