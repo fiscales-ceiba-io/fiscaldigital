@@ -2,16 +2,19 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/styles";
 import React from "react";
 import ReactDOM from "react-dom";
+import HttpsRedirect from "react-https-redirect";
 import App from "./App";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
 import { theme } from "./theme";
 
 ReactDOM.render(
-  <ThemeProvider theme={theme}>
-    <CssBaseline />
-    <App />
-  </ThemeProvider>,
+  <HttpsRedirect>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
+  </HttpsRedirect>,
   document.getElementById("root"),
 );
 
