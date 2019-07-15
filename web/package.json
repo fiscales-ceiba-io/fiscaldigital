@@ -35,7 +35,7 @@
     "typescript": "3.5.2"
   },
   "scripts": {
-    "start": "set HTTPS=true && react-scripts start",
+    "start": "HTTPS=true && react-scripts start",
     "start:dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
