@@ -1,7 +1,6 @@
 import { Grid, Hidden } from "@material-ui/core";
 import React from "react";
-import { Link } from "react-router-dom";
-import { Button, View } from "../../components";
+import { Button, Link, View } from "../../components";
 import { AppBar, Toolbar } from "../../components/AppBar";
 import { theme } from "../../theme";
 import { routes } from "../routes";
@@ -24,11 +23,16 @@ export const Header = () => (
         <Hidden smDown>
           <View>
             <Grid container spacing={1}>
-              <Grid item>
-                <a href="https://github.com/fiscales-ceiba-io/fiscaldigital/" target="_blank">
-                  <Button variant="text" color="primary" size="large">
-                    GitHub
-                  </Button>
+              <Grid item style={gridItemStyles}>
+                <Link to={`${routes.home}#faqs`}>FAQs</Link>
+              </Grid>
+              <Grid item style={gridItemStyles}>
+                <a
+                  href="https://github.com/fiscales-ceiba-io/fiscaldigital/"
+                  target="_blank"
+                  style={linkStyles}
+                >
+                  GITHUB
                 </a>
               </Grid>
               <Grid item>
@@ -45,3 +49,10 @@ export const Header = () => (
     </AppBar>
   </View>
 );
+
+const linkStyles = {
+  color: theme.palette.primary.main,
+  textDecoration: "none",
+};
+
+const gridItemStyles = { display: "flex", alignItems: "center", marginRight: theme.spacing(2) };
