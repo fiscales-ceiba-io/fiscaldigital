@@ -8,11 +8,7 @@ import { AppBar, Toolbar } from "../../components/AppBar";
 import { Typography } from "../../components/Typography";
 import { theme } from "../../theme";
 import { routes } from "../routes";
-import {
-  Step1 as FileType2Step1,
-  Step2 as FileType2Step2,
-  Step3 as FileType2Step3,
-} from "./groups";
+import { Step1 as FileType2Step1, Step2 as FileType2Step2, Step3 as FileType2Step3 } from "./groups";
 
 interface IVoteCountCertificate {
   id: number;
@@ -305,7 +301,7 @@ export const InputsBlock = ({ rows, inputProps }: { rows: any[]; inputProps: any
         flexDirection: "row",
         flexWrap: "wrap",
         justifyContent: "space-between",
-        maxHeight: "150vh",
+        maxHeight: "200vh",
       }}
     >
       {rows.slice(inputProps.lower, inputProps.upper).map((row, i) => (
