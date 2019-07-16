@@ -12,3 +12,7 @@ export const Link = styled(RouterLink)`
   text-decoration: none;
   color: ${theme.palette.primary.main};
 `;
+
+export const Anchor = styled.a`
+  color: ${theme.palette.primary.dark};
+`;

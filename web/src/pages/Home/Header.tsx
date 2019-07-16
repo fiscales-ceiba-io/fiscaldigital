@@ -30,6 +30,7 @@ export const Header = () => (
                 <a
                   href="https://github.com/fiscales-ceiba-io/fiscaldigital/"
                   target="_blank"
+                  rel="nofollow"
                   style={linkStyles}
                 >
                   GITHUB

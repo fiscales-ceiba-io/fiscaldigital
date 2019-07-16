@@ -2,7 +2,7 @@ import { Grid } from "@material-ui/core";
 import axios from "axios";
 import { get } from "lodash";
 import React, { useEffect, useRef, useState } from "react";
-import { Container, Typography, View } from "../../components";
+import { Anchor, Container, Typography, View } from "../../components";
 import { theme } from "../../theme";
 
 export const Intro = ({ signUpForm }: { signUpForm: any }) => {
@@ -45,7 +45,15 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
               todos los votos
             </Typography>
             <Typography variant="h4" color="primary" style={{ marginBottom: theme.spacing(2) }}>
-              Sé un #FiscalDigital.
+              Sé un{" "}
+              <Anchor
+                href="https://twitter.com/hashtag/Fiscal_Digital"
+                target="_blank"
+                rel="nofollow"
+              >
+                #Fiscal_Digital
+              </Anchor>
+              .
             </Typography>
             <Typography variant="h5" color="primary">
               Participa hoy mismo a favor de la democracia.
@@ -65,6 +73,7 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
               amount={get(stats, ["digitaciones", "validas"], 0)}
               description="Actas Digitadas"
             />
+            <Stat size="lg" amount={0} description="Actas Validadas" />
           </Grid>
         </Container>
         <Container maxWidth="xl" style={{ padding: 0 }}>
