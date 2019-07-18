@@ -47,6 +47,8 @@ export const Compare = ({ history }: { history: History }) => {
   const [fileType, setFileType] = useState("0");
   const [fileName, setFileName] = useState("");
   const [currentGroup, setCurrentGroup] = useState(1);
+  const [userScore, setUserScore] = useState({});
+  const [leaderboard, setLeaderboard] = useState([{}]);
 
   useEffect(() => {
     try {
@@ -68,6 +70,8 @@ export const Compare = ({ history }: { history: History }) => {
       setFileType(getFileType(data)[0] || "0");
       setFileName(getFileName(data)[0] || "");
       voteCountCertificateData.tipo.mapa = getFileMap(data);
+      fetchUserScore(setUserScore);
+      fetchLeaderboard(setLeaderboard);
       onLoad(false);
     } catch (error) {
       console.error(error);
@@ -156,9 +160,7 @@ export const Compare = ({ history }: { history: History }) => {
         <FileType2Step1
           onContinue={sendFileMap}
           onBack={onBack}
-          scoreComponent={
-            <Score fetchUserScore={fetchUserScore} fetchLeaderboard={fetchLeaderboard} />
-          }
+          scoreComponent={<Score score={userScore} leaderboard={leaderboard} />}
           loadMoreButton={
             <Button variant="text" color="secondary" onClick={() => loadNewVoteCountCertificate()}>
               <ErrorOutlinedIcon style={{ marginRight: theme.spacing(1) }} />
@@ -179,7 +181,7 @@ export const Compare = ({ history }: { history: History }) => {
         <FileType2Step2
           onContinue={sendFileMap}
           onBack={onBack}
-          scoreComponent={<Score />}
+          scoreComponent={<Score score={userScore} leaderboard={leaderboard} />}
           loadMoreButton={
             <Button variant="text" color="secondary" onClick={() => loadNewVoteCountCertificate()}>
               <ErrorOutlinedIcon style={{ marginRight: theme.spacing(1) }} />
@@ -203,7 +205,7 @@ export const Compare = ({ history }: { history: History }) => {
       <FileType2Step3
         onContinue={sendFileMap}
         onBack={onBack}
-        scoreComponent={<Score />}
+        scoreComponent={<Score score={userScore} leaderboard={leaderboard} />}
         loadMoreButton={
           <Button variant="text" color="secondary" onClick={() => loadNewVoteCountCertificate()}>
             <ErrorOutlinedIcon style={{ marginRight: theme.spacing(1) }} />
