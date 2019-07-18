@@ -1,7 +1,7 @@
 import { Paper, Table, TableBody, TableCell, TableHead, TableRow } from "@material-ui/core";
-import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { Button, Container, Grid, Link, Typography, View } from "../../components";
+import { fetchLeaderboard } from "../../http";
 import { theme } from "../../theme";
 import { routes } from "../routes";
 
@@ -9,23 +9,8 @@ export const Leaderboard = () => {
   const [leaderboard, setLeaderboard] = useState([]);
 
   useEffect(() => {
-    fetchLeaderboard();
+    fetchLeaderboard(setLeaderboard);
   }, []);
-
-  const fetchLeaderboard = async () => {
-    try {
-      const res = await axios({
-        method: "get",
-        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/resultados/high_scores/`,
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      setLeaderboard(res.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   return (
     <View minHeight="60vh" bgcolor="secondary.main" py={6}>

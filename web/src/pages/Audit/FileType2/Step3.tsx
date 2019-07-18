@@ -1,28 +1,18 @@
 import React from "react";
 import { Button, Grid } from "../../../components";
-import {
-  ActionContainer,
-  Container,
-  Instructions,
-  InstructionsContainer,
-  InstructionsTemplate,
-  LoadMoreButtonView,
-} from "../components";
+import { IStep } from "../../../types";
+import { ActionContainer, Container, Instructions, InstructionsContainer, InstructionsTemplate, LoadMoreButtonView } from "../components";
 
 export const Step3 = ({
   actionBlock,
   onContinue,
   onBack,
+  scoreComponent,
   loadMoreButton,
-}: {
-  actionBlock: any;
-  onContinue: any;
-  onBack: any;
-  loadMoreButton: any;
-}) => {
+}: IStep) => {
   return (
     <Container>
-      <InstructionsContainer>
+      <InstructionsContainer scoreComponent={scoreComponent}>
         <Instructions />
         <InstructionsTemplate backgroundImage={`url(/audit/compare/acta-2-grupo-3.png)`} />
       </InstructionsContainer>

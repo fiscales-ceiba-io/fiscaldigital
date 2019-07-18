@@ -22,17 +22,31 @@ export const ActionContainer = ({ children }: { children: JSX.Element | JSX.Elem
   </Grid>
 );
 
-export const InstructionsContainer = ({ children }: { children: JSX.Element | JSX.Element[] }) => (
-  <Grid item sm={7} md={7} lg={6} style={{ backgroundColor: theme.palette.grey[100] }}>
+export const InstructionsContainer = ({
+  children,
+  scoreComponent,
+}: {
+  children: JSX.Element | JSX.Element[];
+  scoreComponent: JSX.Element | JSX.Element[];
+}) => (
+  <Grid
+    item
+    sm={7}
+    md={7}
+    lg={6}
+    style={{ backgroundColor: theme.palette.grey[100], position: "relative" }}
+  >
     <View
       p={4}
       alignItems="center"
       display="flex"
       flexDirection="column"
+      position="relative"
       style={{ paddingTop: (theme.mixins.toolbar.minHeight as number) * 2.3 }}
     >
       {children}
     </View>
+    {scoreComponent}
   </Grid>
 );
 
@@ -63,6 +77,8 @@ export const Instructions = () => (
   </View>
 );
 
-export const LoadMoreButtonView = ({children}: {children: any;}) => (
-  <View textAlign="center" mt={2}>{children}</View>
+export const LoadMoreButtonView = ({ children }: { children: any }) => (
+  <View textAlign="center" mt={2}>
+    {children}
+  </View>
 );

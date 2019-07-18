@@ -1,31 +1,16 @@
 import { Grid } from "@material-ui/core";
-import axios from "axios";
 import { get } from "lodash";
 import React, { useEffect, useRef, useState } from "react";
 import { Anchor, Container, Typography, View } from "../../components";
+import { fetchStats } from "../../http";
 import { theme } from "../../theme";
 
 export const Intro = ({ signUpForm }: { signUpForm: any }) => {
   const [stats, setStats] = useState({});
 
   useEffect(() => {
-    fetchStats();
+    fetchStats(setStats);
   }, []);
-
-  const fetchStats = async () => {
-    try {
-      const res = await axios({
-        method: "get",
-        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/resultados/avances/?format=json`,
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
-      setStats(res.data);
-    } catch (error) {
-      console.log(error);
-    }
-  };
 
   return (
     <View

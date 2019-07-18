@@ -6,9 +6,15 @@ import React, { ChangeEvent, useEffect, useState } from "react";
 import { Button, Container, Grid, TextField, View } from "../../components";
 import { AppBar, Toolbar } from "../../components/AppBar";
 import { Typography } from "../../components/Typography";
+import { fetchLeaderboard, fetchUserScore } from "../../http";
 import { theme } from "../../theme";
 import { routes } from "../routes";
-import { Step1 as FileType2Step1, Step2 as FileType2Step2, Step3 as FileType2Step3 } from "./groups";
+import {
+  Step1 as FileType2Step1,
+  Step2 as FileType2Step2,
+  Step3 as FileType2Step3,
+} from "./groups";
+import { Score } from "./Score";
 
 interface IVoteCountCertificate {
   id: number;
@@ -150,6 +156,9 @@ export const Compare = ({ history }: { history: History }) => {
         <FileType2Step1
           onContinue={sendFileMap}
           onBack={onBack}
+          scoreComponent={
+            <Score fetchUserScore={fetchUserScore} fetchLeaderboard={fetchLeaderboard} />
+          }
           loadMoreButton={
             <Button variant="text" color="secondary" onClick={() => loadNewVoteCountCertificate()}>
               <ErrorOutlinedIcon style={{ marginRight: theme.spacing(1) }} />
@@ -170,6 +179,7 @@ export const Compare = ({ history }: { history: History }) => {
         <FileType2Step2
           onContinue={sendFileMap}
           onBack={onBack}
+          scoreComponent={<Score />}
           loadMoreButton={
             <Button variant="text" color="secondary" onClick={() => loadNewVoteCountCertificate()}>
               <ErrorOutlinedIcon style={{ marginRight: theme.spacing(1) }} />
@@ -193,6 +203,7 @@ export const Compare = ({ history }: { history: History }) => {
       <FileType2Step3
         onContinue={sendFileMap}
         onBack={onBack}
+        scoreComponent={<Score />}
         loadMoreButton={
           <Button variant="text" color="secondary" onClick={() => loadNewVoteCountCertificate()}>
             <ErrorOutlinedIcon style={{ marginRight: theme.spacing(1) }} />
