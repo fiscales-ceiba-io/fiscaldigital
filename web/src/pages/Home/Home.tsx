@@ -4,7 +4,7 @@ import { Header, Intro, Leaderboard } from ".";
 import { closeSnackbar, displaySnackbarError, Snackbar, SnackbarProps } from "../../components";
 import { SignUpForm } from "../Auth/Create";
 import { routes } from "../routes";
-import { FAQs } from "./FAQs";
+import { Footer } from "./Footer";
 
 export const Home = ({ history }: { history: History }) => {
   const [snackbar, setSnackbar] = useState<SnackbarProps>(closeSnackbar());
@@ -29,7 +29,7 @@ export const Home = ({ history }: { history: History }) => {
         }
       />
       <Leaderboard />
-      <FAQs />
+      <Footer />
     </>
   );
 };

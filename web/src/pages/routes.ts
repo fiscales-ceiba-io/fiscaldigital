@@ -11,5 +11,8 @@ export const routes = {
   audit: {
     compare: "/audit/compare",
   },
-  home: "/",
+  root: "/",
+  home: {
+    faqs: "/preguntas-frecuentes",
+  },
 };

@@ -17,6 +17,7 @@ import {
   View,
 } from "../../components";
 import { theme } from "../../theme";
+import { Footer } from "../Home";
 import { routes } from "../routes";
 import { AuthLogo } from "./components";
 
@@ -60,43 +61,46 @@ export const SignIn = ({ history }: { history: History }) => {
   const marginBottom = theme.spacing(1);
 
   return (
-    <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
-      <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
-      <Container maxWidth="xs">
-        <AuthLogo />
-        <Grid container spacing={2} style={{ marginBottom }}>
-          <Grid item lg={4}>
-            <CountryCodeSelect onChange={(e: any) => setCountryCode(e.target.value)} />
+    <>
+      <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
+        <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
+        <Container maxWidth="xs">
+          <AuthLogo />
+          <Grid container spacing={2} style={{ marginBottom }}>
+            <Grid item lg={4}>
+              <CountryCodeSelect onChange={(e: any) => setCountryCode(e.target.value)} />
+            </Grid>
+            <Grid item lg={8}>
+              <PhoneNumberInput
+                autoFocus={true}
+                onChange={(e: any) => setPhoneNumber(e.target.value)}
+              />
+            </Grid>
           </Grid>
-          <Grid item lg={8}>
-            <PhoneNumberInput
-              autoFocus={true}
-              onChange={(e: any) => setPhoneNumber(e.target.value)}
-            />
+          <Grid container spacing={2} style={{ marginBottom }}>
+            <Grid item xs={12} sm={12} md={12} lg={12}>
+              <Button
+                type="submit"
+                fullWidth
+                variant="contained"
+                color="primary"
+                size="large"
+                onClick={onSubmit}
+              >
+                Enviar
+              </Button>
+            </Grid>
+            <Grid item xs={12}>
+              <Link to={routes.auth.create}>
+                <Typography variant="body2" align="center">
+                  Crear una cuenta
+                </Typography>
+              </Link>
+            </Grid>
           </Grid>
-        </Grid>
-        <Grid container spacing={2} style={{ marginBottom }}>
-          <Grid item xs={12} sm={12} md={12} lg={12}>
-            <Button
-              type="submit"
-              fullWidth
-              variant="contained"
-              color="primary"
-              size="large"
-              onClick={onSubmit}
-            >
-              Enviar
-            </Button>
-          </Grid>
-          <Grid item xs={12}>
-            <Link to={routes.auth.create}>
-              <Typography variant="body2" align="center">
-                Crear una cuenta
-              </Typography>
-            </Link>
-          </Grid>
-        </Grid>
-      </Container>
-    </View>
+        </Container>
+      </View>
+      <Footer />
+    </>
   );
 };

@@ -18,6 +18,7 @@ import {
   View,
 } from "../../components";
 import { theme } from "../../theme";
+import { Footer } from "../Home";
 import { routes } from "../routes";
 import { AuthLogo } from "./components";
 
@@ -31,23 +32,26 @@ export const Create = ({ history }: { history: History }) => {
   }, [history]);
 
   return (
-    <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
-      <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
-      <Container maxWidth="xs">
-        <AuthLogo />
-        <SignUpForm
-          onSuccess={({ telefono }: { telefono: string }) => {
-            setSnackbar(closeSnackbar());
-            history.push(routes.auth.validate, {
-              telefono,
-            });
-          }}
-          onError={(error: any) => {
-            setSnackbar(displaySnackbarError(error));
-          }}
-        />
-      </Container>
-    </View>
+    <>
+      <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
+        <Snackbar snackbar={snackbar} onClose={() => setSnackbar(closeSnackbar())} />
+        <Container maxWidth="xs">
+          <AuthLogo />
+          <SignUpForm
+            onSuccess={({ telefono }: { telefono: string }) => {
+              setSnackbar(closeSnackbar());
+              history.push(routes.auth.validate, {
+                telefono,
+              });
+            }}
+            onError={(error: any) => {
+              setSnackbar(displaySnackbarError(error));
+            }}
+          />
+        </Container>
+      </View>
+      <Footer />
+    </>
   );
 };
 

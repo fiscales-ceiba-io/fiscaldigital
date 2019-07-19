@@ -13,18 +13,20 @@ export const Header = () => (
       style={{ backgroundColor: theme.palette.secondary.main }}
     >
       <Toolbar style={{ justifyContent: "space-between" }}>
-        <View>
-          <img
-            src="/svg/logo-fiscal-digital.svg"
-            style={{ width: "180px", height: "auto" }}
-            alt="fiscal digital logo"
-          />
+        <View py={1}>
+          <Link to={routes.root}>
+            <img
+              src="/svg/logo-fiscal-digital.svg"
+              style={{ width: "180px", height: "auto" }}
+              alt="fiscal digital logo"
+            />
+          </Link>
         </View>
         <Hidden smDown>
           <View>
             <Grid container spacing={1}>
               <Grid item style={gridItemStyles}>
-                <Link to={`${routes.home}#faqs`}>FAQs</Link>
+                <Link to={`${routes.home.faqs}`}>FAQs</Link>
               </Grid>
               <Grid item style={gridItemStyles}>
                 <a

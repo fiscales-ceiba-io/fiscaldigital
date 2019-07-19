@@ -5,7 +5,7 @@ import Cookies from "js-cookie";
 import React, { ChangeEvent, useEffect, useState } from "react";
 import { Button, Container, Grid, TextField, View } from "../../components";
 import { AppBar, Toolbar } from "../../components/AppBar";
-import { Typography } from "../../components/Typography";
+import { Link, Typography } from "../../components/Typography";
 import { fetchLeaderboard, fetchUserScore } from "../../http";
 import { theme } from "../../theme";
 import { routes } from "../routes";
@@ -262,11 +262,13 @@ export const Compare = ({ history }: { history: History }) => {
                       </Typography>
                     </View>
                     <View>
-                      <img
-                        src="/svg/logo-fiscal-digital.svg"
-                        style={{ width: "120px", height: "auto" }}
-                        alt="fiscal digital logo"
-                      />
+                      <Link to={routes.root}>
+                        <img
+                          src="/svg/logo-fiscal-digital.svg"
+                          style={{ width: "120px", height: "auto" }}
+                          alt="fiscal digital logo"
+                        />
+                      </Link>
                     </View>
                   </Toolbar>
                 </AppBar>

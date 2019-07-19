@@ -24,7 +24,7 @@ export const Leaderboard = () => {
           </Grid>
         </Grid>
         <Grid container justify="space-between" style={{ marginTop: theme.spacing(5) }}>
-          <Grid item lg={4}>
+          <Grid item lg={4} xs={12}>
             <Paper style={{ maxHeight: "50vh", overflow: "scroll" }}>
               <Table size="small">
                 <TableHead>
@@ -49,6 +49,7 @@ export const Leaderboard = () => {
           <Grid
             item
             lg={7}
+            xs={12}
             style={{
               display: "flex",
               minHeight: "50vh",
@@ -65,7 +66,7 @@ export const Leaderboard = () => {
               “Continuar” al final de cada acta. Estos valores son registrados en la base de datos
               bajo cada usuario. Así calculamos la cantidad de Actas Digitadas.
             </Typography>
-            <Link to={`${routes.home}#faqs`}>
+            <Link to={`${routes.home.faqs}`}>
               <Button variant="outlined" size="large" color="primary">
                 Preguntas Frecuentes
               </Button>
