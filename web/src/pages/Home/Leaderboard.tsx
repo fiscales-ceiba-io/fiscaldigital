@@ -19,7 +19,10 @@ export const Leaderboard = () => {
           <Grid item>
             <Typography variant="h2">Marcador</Typography>
             <Typography variant="h5">
-              Mostrando los {leaderboard.length} usuarios con más actas digitadas
+              Mostrando los {leaderboard.length} usuarios con más actas digitadas.
+            </Typography>
+            <Typography variant="h5" color="primary">
+              ¡Hay Premios!
             </Typography>
           </Grid>
         </Grid>

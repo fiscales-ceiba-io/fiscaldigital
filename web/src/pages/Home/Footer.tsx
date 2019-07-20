@@ -6,6 +6,7 @@ import { routes } from "../routes";
 export const Footer = () => {
   return (
     <View bgcolor="primary.main">
+      <View bgcolor="secondary.main" p={2} />
       <Container maxWidth="md">
         <Grid container justify="space-between">
           <Grid item lg={4}>
