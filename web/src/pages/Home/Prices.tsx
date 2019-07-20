@@ -61,14 +61,17 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
             <div className="glide__track" data-glide-el="track">
               <ul className="glide__slides">
                 {data.map((price: any, i: number) => {
-                  const [description] = price;
-                  return (
-                    <li key={i} className={`glide__slide ${classes.glideSlide}`}>
-                      <View className={`slide ${classes.glideSlideView}`}>
-                        <Typography variant="h4">{description}</Typography>
-                      </View>
-                    </li>
-                  );
+                  const [terms, , , , description] = price;
+                  if (description) {
+                    return (
+                      <li key={i} className={`glide__slide ${classes.glideSlide}`}>
+                        <View className={`slide ${classes.glideSlideView}`}>
+                          <Typography gutterBottom variant="h4">{description}</Typography>
+                          <Typography variant="body1">{terms}</Typography>
+                        </View>
+                      </li>
+                    );
+                  }
                 })}
               </ul>
             </div>
