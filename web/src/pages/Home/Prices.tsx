@@ -67,7 +67,7 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
                       <li key={i} className={`glide__slide ${classes.glideSlide}`}>
                         <View className={`slide ${classes.glideSlideView}`}>
                           <Typography gutterBottom variant="h4">{title}</Typography>
-                          <View width={35} p={2} bgcolor="white" mb={2}></View>
+                          <View width={35} height={7} bgcolor="white" mb={2}></View>
                           <Typography gutterBottom variant="h5">{description}</Typography>
                           <Typography variant="body1">{terms}</Typography>
                         </View>
