@@ -5,7 +5,6 @@ import { closeSnackbar, displaySnackbarError, Snackbar, SnackbarProps } from "..
 import { SignUpForm } from "../Auth/Create";
 import { routes } from "../routes";
 import { Footer } from "./Footer";
-import { Prices } from "./Prices";
 
 export const Home = ({ history }: { history: History }) => {
   const [snackbar, setSnackbar] = useState<SnackbarProps>(closeSnackbar());
@@ -30,7 +29,6 @@ export const Home = ({ history }: { history: History }) => {
         }
       />
       <Leaderboard />
-      <Prices />
       <Footer />
     </>
   );
