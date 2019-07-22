@@ -23,7 +23,7 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
         });
         (window as any).gapi.client.load("sheets", "v4", async () => {
           const res = await (window as any).gapi.client.sheets.spreadsheets.values.get({
-            range: "Sheet1!A5:K",
+            range: "Sheet1!A5:Q",
             spreadsheetId: google.sheets.spreadsheetId,
           });
           setData(res.result.values);
@@ -61,12 +61,14 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
             <div className="glide__track" data-glide-el="track">
               <ul className="glide__slides">
                 {data.map((price: any, i: number) => {
-                  const [terms, , , , description] = price;
-                  if (description) {
+                  const [terms, , , , description, title, imgsrc] = price;
+                  if (title && description) {
                     return (
                       <li key={i} className={`glide__slide ${classes.glideSlide}`}>
                         <View className={`slide ${classes.glideSlideView}`}>
-                          <Typography gutterBottom variant="h4">{description}</Typography>
+                          <Typography gutterBottom variant="h4">{title}</Typography>
+                          <View width={35} p={2} bgcolor="white" mb={2}></View>
+                          <Typography gutterBottom variant="h5">{description}</Typography>
                           <Typography variant="body1">{terms}</Typography>
                         </View>
                       </li>
