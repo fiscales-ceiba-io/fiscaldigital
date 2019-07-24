@@ -26,7 +26,10 @@ export const Header = () => (
           <View>
             <Grid container spacing={1}>
               <Grid item style={gridItemStyles}>
-                <Link to={`${routes.home.faqs}`}>FAQs</Link>
+                <Link to={`${routes.home.prices}`}>Premios</Link>
+              </Grid>
+              <Grid item style={gridItemStyles}>
+                <Link to={`${routes.home.faqs}`}>Preguntas</Link>
               </Grid>
               <Grid item style={gridItemStyles}>
                 <a

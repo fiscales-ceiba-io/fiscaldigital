@@ -14,5 +14,7 @@ export const routes = {
   root: "/",
   home: {
     faqs: "/preguntas-frecuentes",
+    prices: "/premios",
+    terms: "/terminos-y-condiciones",
   },
 };

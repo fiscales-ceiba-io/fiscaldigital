@@ -5,7 +5,6 @@ import { theme } from "../../theme";
 export default createStyles({
   glideSlide: {
     opacity: 0.5,
-    // width: "100%",
     "&.glide__slide--active": {
       opacity: 1,
       "& .slide": {
@@ -15,7 +14,6 @@ export default createStyles({
     },
   },
   glideSlideView: {
-    // width: "100%",
     backgroundColor: darken(0.05, theme.palette.primary.main),
     color: "white",
     minHeight: "50vh",

@@ -15,7 +15,26 @@ export const injectApiScript = ({ onLoad }: { onLoad: any }) => {
   head.appendChild(script);
 };
 
+export const handleClientLoad = (
+  { initConfig, sheetConfig }: { initConfig: any; sheetConfig: any },
+  onSuccess: any,
+  onError: any,
+) => () =>
+  (window as any).gapi.load("client", async () => {
+    try {
+      await (window as any).gapi.client.init(initConfig);
+      (window as any).gapi.client.load("sheets", "v4", async () => {
+        const res = await (window as any).gapi.client.sheets.spreadsheets.values.get(sheetConfig);
+        onSuccess(res);
+      });
+    } catch (error) {
+      console.error(error);
+      onError(error);
+    }
+  });
+
 export default {
+  handleClientLoad,
   injectApiScript,
   sheets,
 };
