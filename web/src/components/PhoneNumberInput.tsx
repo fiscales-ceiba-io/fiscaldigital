@@ -26,6 +26,9 @@ export const PhoneNumberInput = ({
     <TextField
       variant="outlined"
       required
+      inputProps={{
+        type: "tel",
+      }}
       fullWidth
       autoFocus={autoFocus}
       id="telefono"
