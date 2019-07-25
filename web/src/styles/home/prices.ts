@@ -19,4 +19,16 @@ export default createStyles({
     minHeight: "50vh",
     padding: theme.spacing(3),
   },
+  priceDescriptionLogo: {
+    width: "35%",
+    [theme.breakpoints.down("sm")]: {
+      width: "75%",
+    },
+  },
+  imageDescriptionSrc: {
+    height: 350,
+    [theme.breakpoints.down("sm")]: {
+      height: 350,
+    },
+  },
 });

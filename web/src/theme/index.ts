@@ -1,4 +1,5 @@
 import { createMuiTheme } from "@material-ui/core/styles";
+import { lighten } from "polished";
 
 export const spacingUnit = 16;
 
@@ -16,7 +17,8 @@ export const theme = createMuiTheme({
       main: "#134F5C",
     },
     secondary: {
-      light: "#fefefe",
+      contrastText: lighten(0.02, "#cfe2f3"),
+      light: lighten(0.05, "#cfe2f3"),
       main: "#cfe2f3",
     },
   },
