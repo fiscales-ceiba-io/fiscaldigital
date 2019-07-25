@@ -17,4 +17,10 @@ export const routes = {
     prices: "/premios",
     terms: "/terminos-y-condiciones",
   },
+  prices: {
+    civico: "/premio/nivel-civico",
+    herbruger: "/premio/nivel-arturo-herbruger-asturias",
+    platonico: "/premio/nivel-platonico",
+    socratico: "/premio/nivel-socratico",
+  },
 };

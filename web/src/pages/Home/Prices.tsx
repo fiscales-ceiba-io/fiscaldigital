@@ -2,7 +2,7 @@ import Glide from "@glidejs/glide";
 import "@glidejs/glide/src/assets/sass/glide.core.scss";
 import { withStyles } from "@material-ui/core";
 import React, { useEffect, useState } from "react";
-import { Button, Container, Typography, View } from "../../components";
+import { Button, Container, Link, Typography, View } from "../../components";
 import { google } from "../../config";
 import styles from "../../styles";
 import { theme } from "../../theme";
@@ -20,7 +20,7 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
             ...google.sheets,
           },
           sheetConfig: {
-            range: "Types!A2:E",
+            range: "Types!A2:F",
             spreadsheetId: google.sheets.spreadsheetId,
           },
         },
@@ -90,7 +90,7 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
                 <div className="glide__track" data-glide-el="track">
                   <ul className="glide__slides">
                     {data.map((price: any, i: number) => {
-                      const [title, description, value, units, terms] = price;
+                      const [title, description, value, units, terms, url] = price;
                       if (title && description) {
                         return (
                           <li key={i} className={`glide__slide ${classes.glideSlide}`}>
@@ -112,13 +112,15 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
                                   <br />
                                   (Sujeto a términos y condiciones)
                                 </Typography>
-                                <Button
-                                  variant="outlined"
-                                  color="secondary"
-                                  style={{ marginTop: theme.spacing(2) }}
-                                >
-                                  Ver detalles
-                                </Button>
+                                <Link to={url}>
+                                  <Button
+                                    variant="outlined"
+                                    color="secondary"
+                                    style={{ marginTop: theme.spacing(2) }}
+                                  >
+                                    Ver detalles
+                                  </Button>
+                                </Link>
                               </View>
                             </View>
                           </li>
