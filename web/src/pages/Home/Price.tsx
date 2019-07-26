@@ -1,4 +1,5 @@
 import { Paper, withStyles } from "@material-ui/core";
+import { lighten } from "polished";
 import React, { useEffect, useState } from "react";
 import { Footer, Header } from ".";
 import { Container, Grid, Link, Separator, Typography, View } from "../../components";
@@ -136,7 +137,7 @@ export const Price = withStyles(styles.prices)(
                         </Container>
                       </View>
                     ) : (
-                      <View bgcolor="secondary.contrastText">
+                      <View bgcolor={lighten(0.02, theme.palette.secondary.main)}>
                         <Container maxWidth="xl">
                           <Grid container spacing={3}>
                             <Grid
