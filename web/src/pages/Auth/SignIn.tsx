@@ -11,6 +11,7 @@ import {
   CountryCodeSelect,
   displaySnackbarError,
   PhoneNumberInput,
+  ReCAPTCHA,
   Snackbar,
   SnackbarProps,
   Typography,
@@ -25,6 +26,7 @@ export const SignIn = ({ history }: { history: History }) => {
   const [telefono, setPhoneNumber] = useState("");
   const [countryCode, setCountryCode] = useState("+502");
   const [snackbar, setSnackbar] = useState<SnackbarProps>(closeSnackbar());
+  const [reCaptchaToken, setReCaptchaToken] = useState(null);
 
   useEffect(() => {
     if (Cookies.get("token") && Cookies.get("userID")) {
@@ -32,7 +34,24 @@ export const SignIn = ({ history }: { history: History }) => {
     }
   }, [history]);
 
+  const handleReCaptchaOnChange = (token: string | null) => {
+    setReCaptchaToken(token);
+  };
+
+  const handleReCaptchaOnError = () => {
+    setSnackbar(
+      displaySnackbarError({ message: `Hubo un error con ReCAPTCHA. Intenta de nuevo.` }),
+    );
+  };
+
   const onSubmit = async () => {
+    if (!reCaptchaToken) {
+      setSnackbar(
+        displaySnackbarError({ message: `Debes completar todos los datos. Incluyendo ReCAPTCHA.` }),
+      );
+      return;
+    }
+
     try {
       const create = await axios({
         method: "post",
@@ -41,6 +60,7 @@ export const SignIn = ({ history }: { history: History }) => {
           "Content-Type": "application/json",
         },
         data: {
+          "g-recaptcha-response": reCaptchaToken,
           telefono: `${countryCode}${telefono.trim()}`,
         },
       });
@@ -77,6 +97,11 @@ export const SignIn = ({ history }: { history: History }) => {
               />
             </Grid>
           </Grid>
+          <Grid container spacing={2} style={{ marginBottom }} justify="center">
+            <Grid item>
+              <ReCAPTCHA onChange={handleReCaptchaOnChange} onErrored={handleReCaptchaOnError} />
+            </Grid>
+          </Grid>
           <Grid container spacing={2} style={{ marginBottom }}>
             <Grid item xs={12} sm={12} md={12} lg={12}>
               <Button
@@ -86,6 +111,7 @@ export const SignIn = ({ history }: { history: History }) => {
                 color="primary"
                 size="large"
                 onClick={onSubmit}
+                disabled={!reCaptchaToken}
               >
                 Enviar
               </Button>

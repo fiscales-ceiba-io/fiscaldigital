@@ -11,6 +11,7 @@ import {
   CountryCodeSelect,
   displaySnackbarError,
   PhoneNumberInput,
+  ReCAPTCHA,
   Snackbar,
   SnackbarProps,
   TextField,
@@ -60,8 +61,24 @@ export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: an
   const [apellido, setLName] = useState("");
   const [telefono, setPhoneNumber] = useState("");
   const [countryCode, setCountryCode] = useState("+502");
+  const [reCaptchaToken, setReCaptchaToken] = useState(null);
+
+  const handleReCaptchaOnChange = (token: string | null) => {
+    console.log(token);
+    setReCaptchaToken(token);
+  };
+
+  const handleReCaptchaOnError = () => {
+    console.log("errored");
+    onError({ message: `Hubo un error con ReCAPTCHA. Intenta de nuevo.` });
+  };
 
   const onSubmit = async () => {
+    if (!reCaptchaToken) {
+      onError(`Debes completar todos los datos. Incluyendo ReCAPTCHA.`);
+      return;
+    }
+
     try {
       await axios({
         method: "post",
@@ -73,6 +90,7 @@ export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: an
           apellido,
           nombre,
           telefono: `${countryCode}${telefono.trim()}`,
+          "g-recaptcha-response": reCaptchaToken,
         },
       });
 
@@ -127,6 +145,11 @@ export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: an
           />
         </Grid>
       </Grid>
+      <Grid container spacing={2} style={{ marginBottom }} justify="center">
+        <Grid item>
+          <ReCAPTCHA onChange={handleReCaptchaOnChange} onErrored={handleReCaptchaOnError} />
+        </Grid>
+      </Grid>
       <Grid container spacing={2} style={{ marginBottom }}>
         <Grid item xs={12}>
           <Button
@@ -136,6 +159,7 @@ export const SignUpForm = ({ onSuccess, onError }: { onSuccess: any; onError: an
             color="primary"
             size="large"
             onClick={onSubmit}
+            disabled={!reCaptchaToken}
           >
             Crear Cuenta
           </Button>

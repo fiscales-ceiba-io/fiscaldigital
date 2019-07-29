@@ -45,6 +45,9 @@ export const displaySnackbarError = (error: any): SnackbarProps => ({
   message:
     get(error, ["response", "data", "error"]) ||
     get(error, ["response", "data", "message"]) ||
+    get(error, ["response", "data", "mensaje"]) ||
+    get(error, ["mensaje"]) ||
+    get(error, ["error"]) ||
     get(error, ["message"]) ||
     "",
   open: true,
