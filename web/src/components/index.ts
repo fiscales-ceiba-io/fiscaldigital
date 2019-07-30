@@ -1,5 +1,6 @@
 export * from "./Button";
 export * from "./CountryCodeSelect";
+export * from "./Dialog";
 export * from "./Form";
 export * from "./Grid";
 export * from "./PhoneNumberInput";

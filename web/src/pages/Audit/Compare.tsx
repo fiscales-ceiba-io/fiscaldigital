@@ -2,18 +2,15 @@ import ErrorOutlinedIcon from "@material-ui/icons/ErrorOutlined";
 import axios from "axios";
 import { History } from "history";
 import Cookies from "js-cookie";
+import { get } from "lodash";
 import React, { ChangeEvent, useEffect, useState } from "react";
-import { Button, Container, Grid, TextField, View } from "../../components";
+import { AcceptTermsDialog, Button, Container, Grid, TextField, View } from "../../components";
 import { AppBar, Toolbar } from "../../components/AppBar";
 import { Link, Typography } from "../../components/Typography";
 import { fetchLeaderboard, fetchUserScore } from "../../http";
 import { theme } from "../../theme";
 import { routes } from "../routes";
-import {
-  Step1 as FileType2Step1,
-  Step2 as FileType2Step2,
-  Step3 as FileType2Step3,
-} from "./groups";
+import { Step1 as FileType2Step1, Step2 as FileType2Step2, Step3 as FileType2Step3 } from "./groups";
 import { Score } from "./Score";
 
 interface IVoteCountCertificate {
@@ -44,6 +41,7 @@ export const Compare = ({ history }: { history: History }) => {
     sha1: "",
   });
   const [error, setError] = useState("");
+  const [acceptedTerms, setAcceptedTerms] = useState(false);
   const [fileType, setFileType] = useState("0");
   const [fileName, setFileName] = useState("");
   const [currentGroup, setCurrentGroup] = useState(1);
@@ -52,7 +50,7 @@ export const Compare = ({ history }: { history: History }) => {
 
   useEffect(() => {
     try {
-      getNewVoteCountCertificate();
+      checkTermsAndConditionsAcceptance();
       document.addEventListener("focusin", setCurrentInputRef);
     } catch (error) {
       setError(error.message);
@@ -62,6 +60,46 @@ export const Compare = ({ history }: { history: History }) => {
       document.removeEventListener("focusin", setCurrentInputRef);
     };
   }, []);
+
+  const acceptTerms = async () => {
+    try {
+      await axios({
+        data: {
+          accepted_terms_at: new Date().toISOString(),
+        },
+        headers: {
+          Authorization: Cookies.get("token"),
+          "Content-Type": "application/json",
+        },
+        method: "post",
+        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuarios/actualizar/`,
+      });
+
+      setAcceptedTerms(true);
+      getNewVoteCountCertificate();
+    } catch (error) {
+      console.error(error);
+      setError(error);
+    }
+  };
+
+  const checkTermsAndConditionsAcceptance = async () => {
+    try {
+      const res = await axios({
+        headers: {
+          Authorization: Cookies.get("token"),
+          "Content-Type": "application/json",
+        },
+        method: "get",
+        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuario/terms/`,
+      });
+
+      setAcceptedTerms(get(res.data, ["accepted_terms"], false));
+    } catch (error) {
+      console.error(error);
+      setError(error);
+    }
+  };
 
   const getNewVoteCountCertificate = async () => {
     try {
@@ -227,9 +265,16 @@ export const Compare = ({ history }: { history: History }) => {
     <View minHeight="100vh" justifyContent="center" flexDirection="column" display="flex">
       <Container maxWidth="xl" style={{ padding: 0 }}>
         {error ? (
-          <h2>Error</h2>
+          <View textAlign="center">
+            <h2>Ha ocurrido un error.</h2>
+            <h4>Estamos trabajando en solucionarlo.</h4>
+          </View>
+        ) : !acceptedTerms ? (
+          <AcceptTermsDialog open={!acceptedTerms} acceptTerms={acceptTerms} />
         ) : isLoading ? (
-          <h2>Loading</h2>
+          <View textAlign="center">
+            <h2>Cargando...</h2>
+          </View>
         ) : (
           <Grid container spacing={0} wrap="nowrap">
             <Grid
