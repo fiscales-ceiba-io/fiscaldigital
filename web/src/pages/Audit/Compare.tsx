@@ -10,7 +10,11 @@ import { Link, Typography } from "../../components/Typography";
 import { fetchLeaderboard, fetchUserScore } from "../../http";
 import { theme } from "../../theme";
 import { routes } from "../routes";
-import { Step1 as FileType2Step1, Step2 as FileType2Step2, Step3 as FileType2Step3 } from "./groups";
+import {
+  Step1 as FileType2Step1,
+  Step2 as FileType2Step2,
+  Step3 as FileType2Step3,
+} from "./groups";
 import { Score } from "./Score";
 
 interface IVoteCountCertificate {
@@ -96,7 +100,11 @@ export const Compare = ({ history }: { history: History }) => {
         url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuarios/terminos/`,
       });
 
-      setAcceptedTerms(get(res.data, ["accepted_terms"], false));
+      const acceptedTerms = get(res.data, ["accepted_terms"], false);
+      setAcceptedTerms(acceptedTerms);
+      if (acceptedTerms) {
+        getNewVoteCountCertificate();
+      }
     } catch (error) {
       console.error(error);
       setError(error);
@@ -105,6 +113,7 @@ export const Compare = ({ history }: { history: History }) => {
 
   const getNewVoteCountCertificate = async () => {
     try {
+      onLoad(true);
       const { data } = await getFile();
       setVoteCountCertificate(data);
       setFileType(getFileType(data)[0] || "0");
@@ -115,6 +124,7 @@ export const Compare = ({ history }: { history: History }) => {
       onLoad(false);
     } catch (error) {
       console.error(error);
+      setError(error);
       if (error.response && error.response.status === 500) {
         // assume the token expired
         Cookies.remove("token");
@@ -271,12 +281,12 @@ export const Compare = ({ history }: { history: History }) => {
             <h2>Ha ocurrido un error.</h2>
             <h4>Estamos trabajando en solucionarlo.</h4>
           </View>
-        ) : !acceptedTerms ? (
-          <AcceptTermsDialog open={!acceptedTerms} acceptTerms={acceptTerms} />
         ) : isLoading ? (
           <View textAlign="center">
             <h2>Cargando...</h2>
           </View>
+        ) : !acceptedTerms ? (
+          <AcceptTermsDialog open={!acceptedTerms} acceptTerms={acceptTerms} />
         ) : (
           <Grid container spacing={0} wrap="nowrap">
             <Grid
@@ -431,7 +441,13 @@ export const Input = ({
   );
 };
 
-const getFileMap = ({ tipo: { mapa } }: { tipo: any }) => JSON.parse(mapa);
+const getFileMap = ({ tipo: { mapa } }: { tipo: any }) => {
+  if (mapa !== "NULL") {
+    return JSON.parse(mapa);
+  }
+
+  throw new Error("Empty Map");
+};
 
 const getFile = async () =>
   await axios({
