@@ -102,6 +102,7 @@ export const Compare = ({ history }: { history: History }) => {
 
       const acceptedTerms = get(res.data, ["accepted_terms"], false);
       setAcceptedTerms(acceptedTerms);
+      onLoad(false);
       if (acceptedTerms) {
         getNewVoteCountCertificate();
       }
