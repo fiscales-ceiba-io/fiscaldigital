@@ -38,7 +38,7 @@ export const Header = () => (
                   rel="nofollow"
                   style={linkStyles}
                 >
-                  GITHUB
+                  GitHub
                 </a>
               </Grid>
               <Grid item>

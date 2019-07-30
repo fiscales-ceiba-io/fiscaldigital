@@ -15,7 +15,7 @@ const App: React.FC = () => (
           {...props}
           priceType="nivel Arturo Herbruger Astúrias"
           nextPriceRoute={`/premio/nivel-civico`}
-          priceTitle="Nivel Arturo Herbruger Astúrias"
+          priceTitle="Nivel Arturo Herbruger Asturias"
         />
       )}
     />

@@ -21,9 +21,11 @@ export const Leaderboard = () => {
             <Typography variant="h5">
               Mostrando los {leaderboard.length} usuarios con más actas digitadas.
             </Typography>
-            <Typography variant="h5" color="primary">
-              ¡Hay Premios!
-            </Typography>
+            <Link to={routes.home.prices}>
+              <Typography variant="h5" color="primary">
+                ¡Hay Premios!
+              </Typography>
+            </Link>
           </Grid>
         </Grid>
         <Grid container justify="space-between" style={{ marginTop: theme.spacing(5) }}>

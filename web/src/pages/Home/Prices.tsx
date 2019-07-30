@@ -107,11 +107,6 @@ export const Prices = withStyles(styles.prices)(({ classes }: { classes: any }) 
                                 {description}
                               </Typography>
                               <View style={{ marginTop: "auto" }}>
-                                <Typography variant="body1" gutterBottom>
-                                  Premio con un valor de Q.{value}. Limitado a {units} unidades.
-                                  <br />
-                                  (Sujeto a términos y condiciones)
-                                </Typography>
                                 <Link to={url}>
                                   <Button
                                     variant="outlined"
