@@ -17,8 +17,5 @@ export const Score = ({ score, leaderboard }: { score: any; leaderboard: any }) 
   >
     <Typography variant="h6">Tu marcador</Typography>
     <Typography variant="body1">Tus actas digitadas: {get(score, ["actas_totales"], 0)}</Typography>
-    <Typography variant="body1">
-      Actas digitadas del 1er lugar: {get(leaderboard[0], ["actas_validadas"], 0)}
-    </Typography>
   </View>
 );

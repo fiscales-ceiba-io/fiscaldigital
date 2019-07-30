@@ -71,8 +71,10 @@ export const Compare = ({ history }: { history: History }) => {
           Authorization: Cookies.get("token"),
           "Content-Type": "application/json",
         },
-        method: "post",
-        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuarios/actualizar/`,
+        method: "patch",
+        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuarios/actualizar/${Cookies.get(
+          "userID",
+        )}/`,
       });
 
       setAcceptedTerms(true);
@@ -91,7 +93,7 @@ export const Compare = ({ history }: { history: History }) => {
           "Content-Type": "application/json",
         },
         method: "get",
-        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuario/terms/`,
+        url: `${process.env.REACT_APP_ENDPOINT_ROOT}/api/usuarios/terminos/`,
       });
 
       setAcceptedTerms(get(res.data, ["accepted_terms"], false));
