@@ -31,9 +31,9 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
               todos los votos
             </Typography>
             <Typography variant="h4" color="primary" style={{ marginBottom: theme.spacing(2) }}>
-              Sé un{" "}
+              Rescata la confianza en las votaciones con{" "}
               <Anchor
-                href="https://twitter.com/hashtag/Fiscal_Digital"
+                href="https://www.youtube.com/watch?v=IFNEnWSsnSE&t=193s"
                 target="_blank"
                 rel="nofollow"
               >
@@ -44,18 +44,32 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
             <Typography variant="h5" color="primary" gutterBottom>
               Participa hoy mismo a favor de la democracia.
             </Typography>
-            <Link to={routes.auth.create}>
-              <Button variant="contained" color="primary" size="large">
-                Regístrate
-              </Button>
-            </Link>
+            <Grid container item spacing={3}>
+              <Grid item>
+                <Link to={routes.auth.create}>
+                  <Button variant="contained" color="primary" size="large">
+                    Regístrate
+                  </Button>
+                </Link>
+              </Grid>
+              <Grid item>
+                <Anchor
+                  href={`https://www.youtube.com/watch?v=BpFB_XpfQVg`}
+                  style={{ textDecoration: "none" }}
+                >
+                  <Button variant="outlined" color="primary" size="large">
+                    Aprende cómo
+                  </Button>
+                </Anchor>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid item lg={4} xs={12}>
             <Paper>
               <iframe
                 width="100%"
                 height="315"
-                src="https://www.youtube.com/embed/BpFB_XpfQVg"
+                src="https://www.youtube.com/embed/OxX1erEfVto"
                 frameBorder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
