@@ -44,7 +44,7 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
             <Typography variant="h5" color="primary" gutterBottom>
               Participa hoy mismo a favor de la democracia.
             </Typography>
-            <Grid container item spacing={3}>
+            <Grid container item spacing={3} style={{ marginTop: theme.spacing(2) }}>
               <Grid item>
                 <Link to={routes.auth.create}>
                   <Button variant="contained" color="primary" size="large">
@@ -55,6 +55,7 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
               <Grid item>
                 <Anchor
                   href={`https://www.youtube.com/watch?v=BpFB_XpfQVg`}
+                  target="_blank"
                   style={{ textDecoration: "none" }}
                 >
                   <Button variant="outlined" color="primary" size="large">
