@@ -6,10 +6,11 @@ import { get } from "lodash";
 import React, { ChangeEvent, useEffect, useState } from "react";
 import { AcceptTermsDialog, Button, Container, Grid, TextField, View } from "../../components";
 import { AppBar, Toolbar } from "../../components/AppBar";
-import { Link, Typography } from "../../components/Typography";
+import { Typography } from "../../components/Typography";
 import { fetchLeaderboard, fetchUserScore } from "../../http";
 import { theme } from "../../theme";
 import { routes } from "../routes";
+import { Menu } from "./components";
 import {
   Step1 as FileType2Step1,
   Step2 as FileType2Step2,
@@ -320,13 +321,7 @@ export const Compare = ({ history }: { history: History }) => {
                       </Typography>
                     </View>
                     <View>
-                      <Link to={routes.root}>
-                        <img
-                          src="/svg/logo-fiscal-digital.svg"
-                          style={{ width: "120px", height: "auto" }}
-                          alt="fiscal digital logo"
-                        />
-                      </Link>
+                      <Menu history={history} />
                     </View>
                   </Toolbar>
                 </AppBar>

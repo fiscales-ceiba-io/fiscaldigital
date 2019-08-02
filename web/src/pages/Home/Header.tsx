@@ -22,6 +22,11 @@ export const Header = () => (
             />
           </Link>
         </View>
+        <Hidden smUp>
+          <View>
+            <Link to={`${routes.home.prices}`}>Premios</Link>
+          </View>
+        </Hidden>
         <Hidden smDown>
           <View>
             <Grid container spacing={1}>

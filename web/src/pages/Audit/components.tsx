@@ -1,6 +1,11 @@
+import { IconButton, Menu as MUIMenu, MenuItem } from "@material-ui/core";
+import MoreVertIcon from "@material-ui/icons/MoreVert";
+import { History } from "history";
+import Cookies from "js-cookie";
 import React from "react";
-import { Grid, Typography, View } from "../../components";
+import { Grid, Link, Typography, View } from "../../components";
 import { theme } from "../../theme";
+import { routes } from "../routes";
 
 export const Container = ({ children }: { children: JSX.Element | JSX.Element[] }) => (
   <Grid container item spacing={0}>
@@ -82,3 +87,62 @@ export const LoadMoreButtonView = ({ children }: { children: any }) => (
     {children}
   </View>
 );
+
+export const Menu = ({ history }: { history: History }) => {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+
+  const handleClick = (event: any) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
+
+  const handleLogout = () => {
+    try {
+      Cookies.remove("token");
+      Cookies.remove("userID");
+      history.push(routes.root);
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  return (
+    <>
+      <IconButton
+        aria-label="more"
+        aria-controls="long-menu"
+        aria-haspopup="true"
+        onClick={handleClick}
+      >
+        <MoreVertIcon />
+      </IconButton>
+      <MUIMenu
+        id="long-menu"
+        anchorEl={anchorEl}
+        keepMounted
+        open={open}
+        onClose={handleClose}
+        PaperProps={{
+          style: {
+            maxHeight: 48 * 4.5,
+            width: 200,
+          },
+        }}
+      >
+        <MenuItem onClick={handleClose} disableGutters>
+          <Link
+            to={routes.root}
+            style={{ paddingLeft: 16, paddingRight: 16, display: "block", width: "100%" }}
+          >
+            Inicio
+          </Link>
+        </MenuItem>
+        <MenuItem onClick={handleLogout}>Salir</MenuItem>
+      </MUIMenu>
+    </>
+  );
+};

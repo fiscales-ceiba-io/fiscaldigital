@@ -1,9 +1,10 @@
-import { Grid } from "@material-ui/core";
+import { Grid, Paper } from "@material-ui/core";
 import { get } from "lodash";
 import React, { useEffect, useRef, useState } from "react";
-import { Anchor, Container, Typography, View } from "../../components";
+import { Anchor, Button, Container, Link, Typography, View } from "../../components";
 import { fetchStats } from "../../http";
 import { theme } from "../../theme";
+import { routes } from "../routes";
 
 export const Intro = ({ signUpForm }: { signUpForm: any }) => {
   const [stats, setStats] = useState({});
@@ -40,12 +41,26 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
               </Anchor>
               .
             </Typography>
-            <Typography variant="h5" color="primary">
+            <Typography variant="h5" color="primary" gutterBottom>
               Participa hoy mismo a favor de la democracia.
             </Typography>
+            <Link to={routes.auth.create}>
+              <Button variant="contained" color="primary" size="large">
+                Regístrate
+              </Button>
+            </Link>
           </Grid>
-          <Grid item lg={4}>
-            {signUpForm}
+          <Grid item lg={4} xs={12}>
+            <Paper>
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/BpFB_XpfQVg"
+                frameBorder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </Paper>
           </Grid>
         </Grid>
       </Container>
