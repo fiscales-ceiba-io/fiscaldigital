@@ -2,7 +2,7 @@ import { Paper, withStyles } from "@material-ui/core";
 import { lighten } from "polished";
 import React, { useEffect, useState } from "react";
 import { Footer, Header } from ".";
-import { Container, Grid, Link, Separator, Typography, View } from "../../components";
+import { Anchor, Container, Grid, Link, Separator, Typography, View } from "../../components";
 import { google } from "../../config";
 import styles from "../../styles";
 import { theme } from "../../theme";
@@ -97,7 +97,7 @@ export const Price = withStyles(styles.prices)(
           ) : (
             <>
               {data.map((price: any, i: number) => {
-                const [level, title, description, imgsrc, logo, donor, value, units] = price;
+                const [level, title, description, imgsrc, logo, donor, value, units, url] = price;
                 return (
                   <div key={i}>
                     {i % 2 === 0 ? (
@@ -120,6 +120,7 @@ export const Price = withStyles(styles.prices)(
                                 donor={donor}
                                 value={value}
                                 units={units}
+                                url={url}
                               />
                             </Grid>
                             <Grid
@@ -167,6 +168,7 @@ export const Price = withStyles(styles.prices)(
                                 donor={donor}
                                 value={value}
                                 units={units}
+                                url={url}
                               />
                             </Grid>
                           </Grid>
@@ -194,6 +196,7 @@ export const PriceDescriptionContainer = withStyles(styles.prices)(
     donor,
     value,
     units,
+    url,
   }: {
     classes: any;
     title: string;
@@ -202,6 +205,7 @@ export const PriceDescriptionContainer = withStyles(styles.prices)(
     donor: string;
     value: string;
     units: string;
+    url?: string;
   }) => (
     <View display="flex" flexDirection="column" justifyContent="space-between" minHeight="50vh">
       <Typography gutterBottom variant="h4">
@@ -214,6 +218,7 @@ export const PriceDescriptionContainer = withStyles(styles.prices)(
         <Typography variant="body1" gutterBottom>
           Patrocinado por {donor}:
         </Typography>
+        <Anchor href={url} target="_blank">
         <Paper
           className={`${classes.priceDescriptionLogo}`}
           style={{
@@ -225,6 +230,7 @@ export const PriceDescriptionContainer = withStyles(styles.prices)(
             marginBottom: theme.spacing(2),
           }}
         />
+        </Anchor>
         <Typography variant="caption">
           Premio con un valor de Q.{value}. Limitado a {units} unidades.
           <br />
