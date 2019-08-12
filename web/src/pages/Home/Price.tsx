@@ -218,18 +218,18 @@ export const PriceDescriptionContainer = withStyles(styles.prices)(
         <Typography variant="body1" gutterBottom>
           Patrocinado por {donor}:
         </Typography>
-        <Anchor href={url} target="_blank">
-        <Paper
-          className={`${classes.priceDescriptionLogo}`}
-          style={{
-            backgroundImage: `url(https://ipfs.globalupload.io/${logo})`,
-            backgroundPosition: "center center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "contain",
-            height: 98,
-            marginBottom: theme.spacing(2),
-          }}
-        />
+        <Anchor href={url} target="_blank" rel="noopener noreferrer">
+          <Paper
+            className={`${classes.priceDescriptionLogo}`}
+            style={{
+              backgroundImage: `url(https://ipfs.globalupload.io/${logo})`,
+              backgroundPosition: "center center",
+              backgroundRepeat: "no-repeat",
+              backgroundSize: "contain",
+              height: 98,
+              marginBottom: theme.spacing(2),
+            }}
+          />
         </Anchor>
         <Typography variant="caption">
           Premio con un valor de Q.{value}. Limitado a {units} unidades.
