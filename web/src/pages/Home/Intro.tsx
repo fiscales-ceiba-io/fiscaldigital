@@ -88,7 +88,11 @@ export const Intro = ({ signUpForm }: { signUpForm: any }) => {
               amount={get(stats, ["digitaciones", "validas"], 0)}
               description="Actas Digitadas"
             />
-            <Stat size="lg" amount={0} description="Actas Validadas" />
+            <Stat
+              size="lg"
+              amount={get(stats, ["digitaciones", "totales"], 0)}
+              description="Actas Validadas"
+            />
           </Grid>
         </Container>
         <Container maxWidth="xl" style={{ padding: 0 }}>
