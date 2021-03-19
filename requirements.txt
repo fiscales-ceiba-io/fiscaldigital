@@ -11,7 +11,7 @@ django-cors-headers==3.0.2
 django-heroku==0.3.1
 django-phonenumber-field==3.0.1
 django-twilio==0.10.0
-djangorestframework==3.9.4
+djangorestframework==3.11.2
 docker-compose==1.21.2
 docker-pycreds==0.3.0
 dockerpty==0.4.1
