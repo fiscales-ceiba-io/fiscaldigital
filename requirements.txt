@@ -1,5 +1,5 @@
 awsebcli==3.14.1
-Babel==2.7.0
+Babel==2.9.1
 blessed==1.15.0
 cached-property==1.4.3
 cement==2.8.2
